@@ -4,6 +4,9 @@
 /* Config */
 
 
+
+
+
 body{
      
    
@@ -14,6 +17,23 @@ body{
   
   font: 1.3rem Inconsolata, monospace;
 }
+
+
+article {
+  /*  leverage cascade for cross-browser gradients  */
+  background: radial-gradient(
+    hsl(100 100% 60%), 
+    hsl(200 100% 60%) 
+  ) fixed;
+  background: conic-gradient(
+    hsl(100 100% 60%), 
+    hsl(200 100% 60%), 
+    hsl(100 100% 60%) 
+  ) fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+} 
 
 
 * {
