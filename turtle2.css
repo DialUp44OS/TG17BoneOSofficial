@@ -20,8 +20,7 @@ article {
   -webkit-text-fill-color: transparent;
   text-align: center;
   font-size:50px ;
-  outline-size: 5px;
-  outline-color: #0d0d0d ;
+
 } 
 
 
@@ -58,7 +57,7 @@ article {
 }
 
 body {
-  background: radial-gradient(circle, #24246e, #06051f);
+  background: radial-gradient(circle, #2f2f47, #06051f);
   //isolation: isolate;
   overflow: hidden;
   position: relative;
