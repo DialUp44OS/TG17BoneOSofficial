@@ -20,6 +20,7 @@ article {
   -webkit-text-fill-color: transparent;
   text-align: center;
   font-size:50px ;
+  outline: 5px solid #9c9c9c;
 
 } 
 
