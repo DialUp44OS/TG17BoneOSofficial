@@ -58,19 +58,7 @@ article {
 
 body {
   background: radial-gradient(circle, #2f2f47, #06051f);
-  //isolation: isolate;
-  overflow: hidden;
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  
-  &:active {
-    div,
-    div::before,
-    div::after { 
-      // Commented out for performance
-      //mix-blend-mode: color-dodge;
-      padding: 40px;
+
     }
   }
 }
