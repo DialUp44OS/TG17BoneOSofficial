@@ -125,6 +125,7 @@ p {
   width: 200px;
   height: 150px;
   object-fit: cover;
+  position: center;
 }
 
 .game-button a {
