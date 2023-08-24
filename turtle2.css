@@ -20,7 +20,7 @@ article {
   -webkit-text-fill-color: transparent;
   text-align: center;
   font-size:50px ;
- -webkit-text-stroke: 6px #000000;
+ -webkit-text-stroke: 4px #000000;
 
 } 
 
@@ -115,7 +115,7 @@ p {
 }
 
 .game-button {
-  background-color: #252b25;
+  background-color: #191c19;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
